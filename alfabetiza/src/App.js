@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Alfabetiza +
+        <h1> Alfabetiza +</h1>
         </a>
       </header>
     </div>
