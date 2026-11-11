@@ -9,7 +9,7 @@ import Menu from './Menu'
 function App() {
   const [contador, setContador] = useState(0);
   function increment() {
-    setContador(contador+1);
+    setContador(contador + 1);
     console.log(contador);
   }
 
@@ -26,8 +26,8 @@ function App() {
         </div>
         <p><input type="button" value="Clique" onClick={increment} /></p>
         <p>{contador}</p> Cliques!
-        <div>
-          
+       
+        <div>          
           <h1>Projeto PI</h1>
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
@@ -35,8 +35,8 @@ function App() {
         </div>
         <button type="button" 
         className="counter" 
-        onClick={() => setCount((count) => count + 1)} >
-          Count is {count}
+        onClick={() => setContador((contador) => contador + 1)} >
+          Count is {contador}
         </button>
       </section>
 
